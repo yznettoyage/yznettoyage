@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YZ Nettoyage - Services de nettoyage professionnels à Calais</title>
+  
+  <!-- Police Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- Feuille de style -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- En-tête & Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">YZ Nettoyage</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Accueil</a></li>
+        <li><a href="#services">Nos Services</a></li>
+        <li><a href="#about">À Propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="mobile-menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Section Hero -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Nettoyage haut de gamme pour professionnels occupés</h1>
+      <p>Chez YZ Nettoyage, nous assurons la propreté de votre Airbnb, de vos bureaux ou locaux professionnels à Calais afin que vous puissiez vous concentrer sur l'essentiel.</p>
+      <a href="#services" class="hero-btn">Découvrir nos services</a>
+    </div>
+  </section>
+
+  <!-- Section Services -->
+  <section class="services-section" id="services">
+    <h2>Nos Services</h2>
+    <div class="services-container">
+      <!-- Service 1 -->
+      <div class="service-card">
+        <img src="D:\Work\YZ nettoyage\images\images.jpeg" alt="Nettoyage Airbnb">
+        <h3>Nettoyage Airbnb</h3>
+        <p>Nous préparons vos logements pour impressionner vos hôtes, en veillant à un environnement impeccable à chaque location.</p>
+      </div>
+      <!-- Service 2 -->
+      <div class="service-card">
+        <img src="D:\Work\YZ nettoyage\images\nettoyage-bureau-ordi.jpg" alt="Nettoyage de bureaux">
+        <h3>Nettoyage de Bureaux</h3>
+        <p>De la petite entreprise au siège social, nous conservons votre environnement de travail propre, frais et professionnel.</p>
+      </div>
+      <!-- Service 3 -->
+      <div class="service-card">
+        <img src="D:\Work\YZ nettoyage\images\4-conseils-pour-bien-choisir-son-entreprise-spécialisée-en-nettoyage-768x432.jpg" alt="Nettoyage pour entreprises">
+        <h3>Nettoyage pour Entreprises</h3>
+        <p>Un service sur mesure pour les commerces, restaurants et tout local commercial souhaitant offrir un espace accueillant et sûr.</p>
+      </div>
+      <!-- Service 4 -->
+      <div class="service-card">
+        <img src="D:\Work\YZ nettoyage\images\Screenshot_1.png" alt="Nettoyage en profondeur">
+        <h3>Nettoyage en Profondeur</h3>
+        <p>Un grand ménage avant un déménagement, une remise à neuf saisonnière ou un nettoyage complet de A à Z.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section À Propos -->
+  <section class="about-section" id="about">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>À Propos de YZ Nettoyage</h2>
+        <p>
+          Basée à Calais, YZ Nettoyage s'engage à fournir des services de nettoyage de la plus haute qualité pour les hôtes Airbnb, 
+          les propriétaires d’entreprises et les professionnels occupés.
+        </p>
+        <p>
+          Notre mission est de simplifier votre vie en prenant en charge toutes vos tâches de nettoyage, 
+          afin que vous puissiez vous concentrer sur ce qui compte vraiment.
+        </p>
+        <a href="#contact" class="primary-btn">En savoir plus</a>
+      </div>
+      <div class="about-image">
+        <img src="D:\Work\YZ nettoyage\images\YZ Nettoyage.png" alt="Équipe YZ Nettoyage à Calais">
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Contact (simplifiée) -->
+  <section class="contact-section" id="contact">
+    <h2>Contactez-nous</h2>
+    <p>N’hésitez pas à nous envoyer un email pour toute question ou demande de devis.</p>
+    <div class="contact-container">
+      <a class="contact-btn" href="mailto:yznettoyage@proton.me">Écrivez-nous</a>
+    </div>
+  </section>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>© 2025 YZ Nettoyage - Calais, France. Tous droits réservés.</p>
+    <p>Contact : 
+      <a href="mailto:yznettoyage@proton.me">yznettoyage@proton.me</a>
+    </p>
+  </footer>
+
+  <!-- Script pour le menu mobile -->
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById("navLinks");
+      navLinks.classList.toggle("show");
+    }
+  </script>
+</body>
+</html>
